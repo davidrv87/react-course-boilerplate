@@ -1,0 +1,20 @@
+.button {
+    background: $blue;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: $m-size;
+    font-weight: 300;
+    line-height: 1;
+    padding: $m-size;
+    text-decoration: none;
+}
+
+.button--link {
+    background: none;
+    font-size: $m-size;
+}
+
+.button--secondary {
+    background: #888;
+}

@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%; // 16px * 0.625 = 10 : 16px = 1rem
+}
+
+// Required for the problem with the arrow in date range picker
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+    background: white;
+    color: $dark-grey;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    line-height: 1.6;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}
